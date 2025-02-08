@@ -43,3 +43,7 @@ You can find the example code in [`api/server.js`](./api/server.js).
 1. https://github.com/typicode/json-server
 2. https://vercel.com
 3. https://shadowsmith.com/how-to-deploy-an-express-api-to-vercel
+
+---
+
+註：經過測試，Vercel 只能短暫地寫入資料，但過一陣子就會釋放。若需要寫入資料且較長時間地持有資料，可能不適合使用 Vercel，可以考慮 Render Server。
